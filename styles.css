@@ -127,6 +127,7 @@ ul {
     transform: scale(1);
     opacity: 0.8;
   }
+
   100% {
     transform: scale(2.5);
     opacity: 0;
@@ -162,6 +163,12 @@ ul {
     box-shadow 0.3s ease,
     backdrop-filter 0.3s ease;
   will-change: background-color, padding, backdrop-filter;
+  /* GPU Acceleration */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
   background: transparent;
 }
 
@@ -233,24 +240,7 @@ ul {
   height: 18px;
 }
 
-.header-phone {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--white);
-  font-weight: 600;
-  font-size: 14px;
-  margin-right: 24px;
-  transition: var(--transition);
-}
 
-.header-phone:hover {
-  color: var(--blue-accent);
-}
-
-.header-phone svg {
-  color: var(--blue-accent);
-}
 
 /* ===== NAVIGATION ===== */
 .nav-menu {
@@ -321,12 +311,10 @@ ul {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(
-    135deg,
-    var(--blue-dark) 0%,
-    var(--blue-deep) 40%,
-    #0f2b4a 100%
-  );
+  background: linear-gradient(135deg,
+      var(--blue-dark) 0%,
+      var(--blue-deep) 40%,
+      #0f2b4a 100%);
 }
 
 .hero::before {
@@ -337,21 +325,15 @@ ul {
   width: 100%;
   height: 100%;
   background:
-    radial-gradient(
-      ellipse at 20% 50%,
+    radial-gradient(ellipse at 20% 50%,
       rgba(0, 51, 153, 0.35) 0%,
-      transparent 60%
-    ),
-    radial-gradient(
-      ellipse at 80% 20%,
+      transparent 60%),
+    radial-gradient(ellipse at 80% 20%,
       rgba(0, 85, 204, 0.2) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      ellipse at 60% 80%,
+      transparent 50%),
+    radial-gradient(ellipse at 60% 80%,
       rgba(0, 51, 153, 0.25) 0%,
-      transparent 50%
-    );
+      transparent 50%);
   z-index: 1;
 }
 
@@ -512,6 +494,7 @@ ul {
 }
 
 @keyframes pulse-dot {
+
   0%,
   100% {
     opacity: 1;
@@ -1161,20 +1144,16 @@ ul {
 }
 
 .unit-icon.own {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 51, 153, 0.1),
-    rgba(0, 51, 153, 0.05)
-  );
+  background: linear-gradient(135deg,
+      rgba(0, 51, 153, 0.1),
+      rgba(0, 51, 153, 0.05));
   color: var(--blue-brand);
 }
 
 .unit-icon.partner {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 85, 204, 0.1),
-    rgba(0, 85, 204, 0.05)
-  );
+  background: linear-gradient(135deg,
+      rgba(0, 85, 204, 0.1),
+      rgba(0, 85, 204, 0.05));
   color: var(--blue-mid);
 }
 
@@ -1267,11 +1246,9 @@ ul {
   align-items: center;
   justify-content: center;
   font-size: 32px;
-  background: linear-gradient(
-    135deg,
-    rgba(0, 51, 153, 0.06),
-    rgba(0, 85, 204, 0.08)
-  );
+  background: linear-gradient(135deg,
+      rgba(0, 51, 153, 0.06),
+      rgba(0, 85, 204, 0.08));
 }
 
 .diff-card h3 {
@@ -1326,11 +1303,9 @@ ul {
   align-items: center;
   gap: 12px;
   padding: 18px 40px;
-  background: linear-gradient(
-    135deg,
-    var(--whatsapp-green),
-    var(--whatsapp-dark)
-  );
+  background: linear-gradient(135deg,
+      var(--whatsapp-green),
+      var(--whatsapp-dark));
   color: var(--white);
   border-radius: 60px;
   font-weight: 700;
@@ -2201,6 +2176,15 @@ ul {
     text-align: center;
   }
 
+  .stat-number {
+    position: relative;
+    display: inline-block;
+  }
+
+  .stat-accent {
+    position: absolute;
+  }
+
   .hero-cta-group {
     flex-direction: column;
     align-items: center;
@@ -2367,13 +2351,7 @@ ul {
     flex-shrink: 0;
   }
 
-  .header-phone span {
-    display: none;
-  }
 
-  .header-phone {
-    margin-right: 8px;
-  }
 
   .nav-toggle {
     margin-right: 0;
