@@ -258,8 +258,16 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const afterTransition = (cb) => {
-      const fn = () => { track.removeEventListener('transitionend', fn); cb(); };
+      let called = false;
+      const fn = () => { 
+        if (called) return;
+        called = true;
+        track.removeEventListener('transitionend', fn); 
+        cb(); 
+      };
       track.addEventListener('transitionend', fn);
+      // Fallback: garante a liberação da transição caso o evento 'transitionend' falhe ou seja cancelado
+      setTimeout(fn, 550);
     };
 
     const goNext = () => {
@@ -317,11 +325,18 @@ document.addEventListener('DOMContentLoaded', () => {
     carousel.addEventListener('mouseenter', () => clearInterval(autoPlayInterval));
     carousel.addEventListener('mouseleave', startAutoPlay);
 
+    let lastWidth = window.innerWidth;
     window.addEventListener('resize', () => {
+      // No mobile, o scroll oculta a barra de endereços (mudando a altura), o que dispara o resize.
+      // Retornar cedo se a largura não mudou impede que o slider seja recriado/congelado no meio de uma transição.
+      if (window.innerWidth === lastWidth) return;
+      lastWidth = window.innerWidth;
+
       setupClones();
       if (currentIndex > getMaxIndex()) currentIndex = getMaxIndex();
       buildDots();
       moveTrack(false);
+      isTransitioning = false;
     });
 
     // Init
