@@ -9,12 +9,12 @@
 </p>
 
 <p align="center">
-  <a href="https://gasplanos.com.br" target="_blank"><strong>🌐 gasplanos.com.br</strong></a>
+  <a href="https://gasplanos.com.br" target="_blank"><strong>gasplanos.com.br</strong></a>
 </p>
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 **G.A.S Planos** é uma landing page de alta conversão desenvolvida para a **GAS Corretora de Seguros**, corretora autorizada pela Prevent Senior. O site tem como objetivo principal a captação de leads e conversão de vendas, oferecendo uma experiência de navegação premium (Glassmorphism + Dark Mode) para o público do Rio de Janeiro e São Paulo.
 
@@ -22,7 +22,7 @@ A estrutura da página funciona como um funil de conversão direto, guiando o vi
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 | Feature | Descrição |
 |---|---|
@@ -37,7 +37,7 @@ A estrutura da página funciona como um funil de conversão direto, guiando o vi
 
 ---
 
-## 🛠️ Stack Tecnológica
+## Stack Tecnológica
 
 O projeto é construído com uma stack leve e de alta performance, sem dependência de frameworks:
 
@@ -49,7 +49,7 @@ O projeto é construído com uma stack leve e de alta performance, sem dependên
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 G.A.S Planos/
@@ -74,23 +74,23 @@ G.A.S Planos/
 
 ---
 
-## 🏥 Seções da Landing Page
+## Seções da Landing Page
 
 1. **Hero / Header** — Proposta de valor, CTAs de conversão e estatísticas
 2. **Benefícios** — Vantagens exclusivas da Prevent Senior (rede própria, sem reajuste 44+, etc.)
 3. **Unidades (Hospitais)** — Carrossel com rede própria RJ e SP
 4. **Tabela de Preços** — Transparência financeira com valores por faixa etária
-5. **Diferenciais & Social Proof** — Parcerias com laboratórios e selos de conformidade
+5. **Diferenciais e Social Proof** — Parcerias com laboratórios e selos de conformidade
 6. **FAQ** — Perguntas frequentes com accordion interativo
-7. **Contato & Footer** — Informações da corretora, CNPJ, registro ANS e canais de atendimento
+7. **Contato e Footer** — Informações da corretora, CNPJ, registro ANS e canais de atendimento
 
 ---
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/gas-planos.git
+   git clone https://github.com/brendonpereiradev/G.A.S-Planos.git
    ```
 
 2. Abra com um servidor local (ex: Live Server no VS Code) ou diretamente no navegador:
@@ -102,23 +102,23 @@ G.A.S Planos/
 
 ---
 
-## 📊 SEO & Performance
+## SEO e Performance
 
-- ✅ Schema.org (`MedicalBusiness`, `InsuranceAgency`, `FAQPage`)
-- ✅ Open Graph completo para compartilhamento social
-- ✅ Meta tags otimizadas (title, description, canonical)
-- ✅ Content Security Policy (CSP) via meta tag
-- ✅ `robots.txt` e `sitemap.xml` configurados
-- ✅ Tipografia fluida com `clamp()` — sem breakpoints fixos
-- ✅ Imagens WebP e SVGs para carregamento rápido
+- Schema.org (`MedicalBusiness`, `InsuranceAgency`, `FAQPage`)
+- Open Graph completo para compartilhamento social
+- Meta tags otimizadas (title, description, canonical)
+- Content Security Policy (CSP) via meta tag
+- `robots.txt` e `sitemap.xml` configurados
+- Tipografia fluida com `clamp()` — sem breakpoints fixos
+- Imagens WebP e SVGs para carregamento rápido
 
 ---
 
-## 📞 Contato
+## Contato
 
 - **WhatsApp:** [(21) 99737-6154](https://wa.me/5521997376154)
 - **Site:** [gasplanos.com.br](https://gasplanos.com.br)
-- **Horário:** Seg–Sáb, 9h às 20h
+- **Horário:** Seg-Sáb, 9h às 20h
 
 ---
 
