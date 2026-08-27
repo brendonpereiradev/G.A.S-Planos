@@ -114,9 +114,9 @@ G.A.S Planos/
 
 ---
 
-## Licença
+## Licença e uso
 
-Este projeto é proprietário. Todos os direitos reservados à B2M Solutions e GAS Corretora. O uso, reprodução ou distribuição do código, marca e conteúdo sem autorização prévia é proibido.
+Este repositório é público exclusivamente para fins de demonstração de portfólio. As marcas, logotipos e conteúdos pertencem aos seus respectivos proprietários, sendo vedada a utilização comercial deste projeto por terceiros sem autorização prévia.
 
 ---
 
