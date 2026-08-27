@@ -14,7 +14,7 @@
 
 ---
 
-## Sobre o Projeto
+## Sobre o projeto
 
 **G.A.S Planos** é uma landing page de alta conversão desenvolvida para um corretor autorizado da Prevent Senior. O site tem como objetivo principal a captação de leads e a conversão de vendas de planos de saúde, oferecendo uma experiência de navegação premium (Glassmorphism e Dark Mode) para o público do Rio de Janeiro e São Paulo.
 
@@ -26,30 +26,30 @@ A estrutura da página funciona como um funil de conversão direto, guiando o vi
 
 | Feature | Descrição |
 |---|---|
-| **Hero com Social Proof** | Barra de visualizações em tempo real + estatísticas de unidades e experiência |
-| **Tabela de Preços Modular** | Cards com faixas etárias e valores, contraste otimizado para leitura rápida |
-| **Rede Credenciada Dual-Geo** | Carrossel infinito com unidades RJ e SP, hospitais, laboratórios e clínicas parceiras |
-| **WhatsApp Conversion Engine** | Floating button, CTAs no menu mobile e header: todos pré-preenchidos para contato instantâneo |
-| **FAQ Interativo** | Accordion com Schema.org `FAQPage` para destaque em resultados do Google |
-| **Widget de Acessibilidade** | Controles de tamanho de fonte (aumentar, diminuir, resetar) |
-| **Menu Mobile Premium** | Drawer lateral com overlay, stagger animations, horário de funcionamento e CTA integrado |
-| **Páginas Legais** | Política de Privacidade e Termos de Uso em páginas dedicadas |
+| **Hero com social proof** | Barra de visualizações em tempo real + estatísticas de unidades e experiência |
+| **Tabela de preços modular** | Cards com faixas etárias e valores, contraste otimizado para leitura rápida |
+| **Rede credenciada dual-geo** | Carrossel infinito com unidades RJ e SP, hospitais, laboratórios e clínicas parceiras |
+| **Conversão via WhatsApp** | Floating button, CTAs no menu mobile e header: todos pré-preenchidos para contato instantâneo |
+| **FAQ interativo** | Accordion com Schema.org `FAQPage` para destaque em resultados do Google |
+| **Widget de acessibilidade** | Controles de tamanho de fonte (aumentar, diminuir, resetar) |
+| **Menu mobile premium** | Drawer lateral com overlay, stagger animations, horário de funcionamento e CTA integrado |
+| **Páginas legais** | Política de Privacidade e Termos de Uso em páginas dedicadas |
 
 ---
 
-## Stack Tecnológica
+## Stack
 
 O projeto é construído com uma stack leve e de alta performance, sem dependência de frameworks:
 
-- **HTML5 Semântico**: Estrutura otimizada para SEO (Schema.org, Open Graph, meta tags) e acessibilidade
-- **CSS3 Vanilla**: Variáveis customizadas, Flexbox/Grid, Glassmorphism (`backdrop-filter`), tipografia fluida com `clamp()`, responsivo do mobile ao ultrawide (4K+)
+- **HTML5 semântico**: Estrutura otimizada para SEO (Schema.org, Open Graph, meta tags) e acessibilidade
+- **CSS3 vanilla**: Variáveis customizadas, Flexbox/Grid, Glassmorphism (`backdrop-filter`), tipografia fluida com `clamp()`, responsivo do mobile ao ultrawide (4K+)
 - **JavaScript ES6+**: Intersection Observer para fade-ins, FAQ accordion, carrossel de unidades, header scroll effect, social proof dinâmico
 - **Google Tag Manager**: Rastreamento de conversões e analytics
-- **Assets Otimizados**: Imagens WebP, SVGs inline, favicon e apple-touch-icon
+- **Assets otimizados**: Imagens WebP, SVGs inline, favicon e apple-touch-icon
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```
 G.A.S Planos/
@@ -74,19 +74,19 @@ G.A.S Planos/
 
 ---
 
-## Seções da Landing Page
+## Seções da landing page
 
-1. **Hero / Header**: Proposta de valor, CTAs de conversão e estatísticas
+1. **Hero / header**: Proposta de valor, CTAs de conversão e estatísticas
 2. **Benefícios**: Vantagens exclusivas da Prevent Senior (rede própria, sem reajuste 44+, etc.)
-3. **Unidades (Hospitais)**: Carrossel com rede própria RJ e SP
-4. **Tabela de Preços**: Transparência financeira com valores por faixa etária
-5. **Diferenciais e Social Proof**: Parcerias com laboratórios e selos de conformidade
+3. **Unidades (hospitais)**: Carrossel com rede própria RJ e SP
+4. **Tabela de preços**: Transparência financeira com valores por faixa etária
+5. **Diferenciais e social proof**: Parcerias com laboratórios e selos de conformidade
 6. **FAQ**: Perguntas frequentes com accordion interativo
 7. **Footer**: Informações institucionais, registro ANS e canais de atendimento
 
 ---
 
-## Como Executar Localmente
+## Como executar localmente
 
 1. Clone o repositório:
    ```bash
@@ -102,7 +102,7 @@ G.A.S Planos/
 
 ---
 
-## SEO e Performance
+## SEO e performance
 
 - Schema.org (`MedicalBusiness`, `InsuranceAgency`, `FAQPage`)
 - Open Graph completo para compartilhamento social
