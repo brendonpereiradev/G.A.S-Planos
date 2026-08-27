@@ -5,7 +5,7 @@
 <h1 align="center">G.A.S Planos — Prevent Senior</h1>
 
 <p align="center">
-  Landing page premium para comercialização de planos de saúde Prevent Senior no Rio de Janeiro e São Paulo.
+  Landing page desenvolvida para um corretor de seguros focado na venda de planos de saúde Prevent Senior no Rio de Janeiro e São Paulo.
 </p>
 
 <p align="center">
@@ -114,15 +114,6 @@ G.A.S Planos/
 
 ---
 
-## Contato
-
-- **WhatsApp:** [(21) 99737-6154](https://wa.me/5521997376154)
-- **Site:** [gasplanos.com.br](https://gasplanos.com.br)
-- **Horário:** Seg-Sáb, 9h às 20h
-
----
-
 <p align="center">
-  Desenvolvido por <strong>BM Solutions</strong><br>
-  © 2026 GAS Corretora de Seguros — Todos os direitos reservados
+  Desenvolvido por <strong>B2M Solutions</strong>
 </p>
