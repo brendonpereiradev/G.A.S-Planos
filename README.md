@@ -86,22 +86,6 @@ G.A.S Planos/
 
 ---
 
-## Como executar localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/brendonpereiradev/G.A.S-Planos.git
-   ```
-
-2. Abra com um servidor local (ex: Live Server no VS Code) ou diretamente no navegador:
-   ```
-   http://127.0.0.1:5500/index.html
-   ```
-
-> **Nota**: O projeto não possui dependências de build, pois utiliza HTML, CSS e JavaScript puro.
-
----
-
 ## SEO e performance
 
 - Schema.org (`MedicalBusiness`, `InsuranceAgency`, `FAQPage`)
