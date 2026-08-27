@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/GAS-logos/gas-logo-nobg.png" alt="GAS Corretora" width="200">
-</p>
-
 <h1 align="center">G.A.S Planos</h1>
 
 <p align="center">
