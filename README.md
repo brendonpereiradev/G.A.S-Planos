@@ -5,7 +5,7 @@
 <h1 align="center">G.A.S Planos — Prevent Senior</h1>
 
 <p align="center">
-  Landing page desenvolvida para um corretor de seguros focado na venda de planos de saúde Prevent Senior no Rio de Janeiro e São Paulo.
+  Landing page desenvolvida para um corretor de planos de saúde focado na venda de convênios da Prevent Senior no Rio de Janeiro e São Paulo.
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## Sobre o Projeto
 
-**G.A.S Planos** é uma landing page de alta conversão desenvolvida para a **GAS Corretora de Seguros**, corretora autorizada pela Prevent Senior. O site tem como objetivo principal a captação de leads e conversão de vendas, oferecendo uma experiência de navegação premium (Glassmorphism + Dark Mode) para o público do Rio de Janeiro e São Paulo.
+**G.A.S Planos** é uma landing page de alta conversão desenvolvida para um corretor autorizado da Prevent Senior. O site tem como objetivo principal a captação de leads e conversão de vendas de planos de saúde, oferecendo uma experiência de navegação premium (Glassmorphism + Dark Mode) para o público do Rio de Janeiro e São Paulo.
 
 A estrutura da página funciona como um funil de conversão direto, guiando o visitante desde a proposta de valor inicial até o contato com o consultor via WhatsApp, sem atritos.
 
