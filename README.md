@@ -114,6 +114,12 @@ G.A.S Planos/
 
 ---
 
+## Licença
+
+Este projeto é proprietário. Todos os direitos reservados à B2M Solutions e GAS Corretora. O uso, reprodução ou distribuição do código, marca e conteúdo sem autorização prévia é proibido.
+
+---
+
 <p align="center">
   Desenvolvido por <strong>B2M Solutions</strong>
 </p>
