@@ -27,15 +27,15 @@ Landing page desenvolvida para corretor autorizado da Prevent Senior com atuaç�
 | Botão flutuante | Atalho fixo na tela para contato direto pelo WhatsApp |
 | Páginas institucionais e legais | Documentos de política de privacidade, termos de uso e página de erro 404 personalizada |
 
-## Tecnologias
+## Stack
 
-O projeto foi desenvolvido sem frameworks ou bibliotecas externas pesadas:
+O projeto utiliza tecnologias nativas da web, sem frameworks pesados, com foco em desempenho e carregamento rápido:
 
-- HTML5 com tags semânticas e marcação para buscadores (Schema.org e Open Graph)
-- CSS3 puro com variáveis, Flexbox, Grid e layout responsivo
-- JavaScript moderno para animações de rolagem, sanfona do FAQ e carrossel
-- Google Tag Manager para métricas e rastreamento
-- Imagens em formato WebP e ícones em SVG
+- **HTML5**: Estrutura semântica com metadados Open Graph e marcação estruturada Schema.org em JSON-LD
+- **CSS3**: Estilização com variáveis customizadas, Flexbox, Grid e layout responsivo
+- **JavaScript (Vanilla ES6+)**: Manipulação do DOM, controle de carrossel infinito, sanfona de dúvidas, geolocalização e persistência no navegador
+- **Google Tag Manager**: Gerenciamento de tags, coleta de métricas e rastreamento de conversões
+- **WebP e SVG**: Formatos compactos de imagens e ícones vetoriais escaláveis
 
 ## Estrutura do projeto
 

@@ -6,14 +6,14 @@ Landing page desenvolvida para a apresentação e venda de planos de saúde da P
 
 Apresentar as informações dos planos de saúde de forma clara e acessível, facilitando o contato do público com o corretor responsável. O layout foi desenhado em tema escuro e estruturado para guiar o leitor das informações iniciais até o canal de atendimento.
 
-## Tecnologias e arquitetura
+## Stack
 
-O projeto foi construído sem frameworks ou bibliotecas pesadas:
+O projeto utiliza tecnologias nativas da web, sem dependência de bibliotecas externas pesadas:
 
-- HTML5 com tags semânticas e acessibilidade
-- CSS3 puro com variáveis customizadas, Flexbox, Grid e layout responsivo com `clamp()`
-- JavaScript moderno para controle do menu mobile, sanfona do FAQ e carrossel de unidades
-- Imagens em formato WebP e ícones em SVG para carregamento rápido
+- **HTML5**: Estrutura semântica com suporte a acessibilidade e metadados estruturados
+- **CSS3**: Variáveis customizadas, Flexbox, Grid e layout responsivo com `clamp()`
+- **JavaScript (Vanilla ES6+)**: Lógica de interface para menu lateral, carrossel de unidades e sanfona do FAQ
+- **WebP e SVG**: Imagens compactadas e ícones vetoriais para carregamento rápido
 
 ## Funcionalidades
 
