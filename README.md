@@ -97,4 +97,8 @@ G.A.S Planos/
 
 Este repositório foi publicado para fins de demonstração de portfólio. As marcas, logotipos e conteúdos pertencem aos seus respectivos proprietários, não sendo permitida a utilização comercial sem autorização prévia.
 
-Desenvolvido por B2M Solutions.
+---
+
+<p align="center">
+  Desenvolvido por <strong>B2M Solutions</strong>
+</p>
