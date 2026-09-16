@@ -2,9 +2,13 @@
 
 Landing page desenvolvida para a apresentação e venda de planos de saúde da Prevent Senior no Rio de Janeiro e em São Paulo. O site reúne tabela de valores, hospitais da rede credenciada e informações sobre os planos, com canais de contato direto pelo WhatsApp.
 
+---
+
 ## Objetivo do projeto
 
 Apresentar as informações dos planos de saúde de forma clara e acessível, facilitando o contato do público com o corretor responsável. O layout foi desenhado em tema escuro e estruturado para guiar o leitor das informações iniciais até o canal de atendimento.
+
+---
 
 ## Stack
 
@@ -14,6 +18,8 @@ O projeto utiliza tecnologias nativas da web, sem dependência de bibliotecas ex
 - **CSS3**: Variáveis customizadas, Flexbox, Grid e layout responsivo com `clamp()`
 - **JavaScript (Vanilla ES6+)**: Lógica de interface para menu lateral, carrossel de unidades e sanfona do FAQ
 - **WebP e SVG**: Imagens compactadas e ícones vetoriais para carregamento rápido
+
+---
 
 ## Funcionalidades
 
@@ -29,6 +35,8 @@ O projeto utiliza tecnologias nativas da web, sem dependência de bibliotecas ex
 | Menu móvel lateral | Gaveta de navegação para telas menores com horários de atendimento e bloqueio de rolagem |
 | Botão flutuante | Atalho fixo na tela para contato direto pelo WhatsApp |
 | Páginas institucionais e legais | Documentos de política de privacidade, termos de uso e página de erro 404 personalizada |
+
+---
 
 ## Estrutura de conteúdo
 

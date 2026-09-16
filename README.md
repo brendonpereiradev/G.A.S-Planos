@@ -8,9 +8,13 @@
   <a href="https://gasplanos.com.br" target="_blank">gasplanos.com.br</a>
 </p>
 
+---
+
 ## Sobre o projeto
 
 Landing page desenvolvida para corretor autorizado da Prevent Senior com atuação no Rio de Janeiro e em São Paulo. O site apresenta os planos disponíveis, a tabela de valores e a rede credenciada, direcionando o visitante para atendimento direto pelo WhatsApp.
+
+---
 
 ## Funcionalidades
 
@@ -27,6 +31,8 @@ Landing page desenvolvida para corretor autorizado da Prevent Senior com atuaç�
 | Botão flutuante | Atalho fixo na tela para contato direto pelo WhatsApp |
 | Páginas institucionais e legais | Documentos de política de privacidade, termos de uso e página de erro 404 personalizada |
 
+---
+
 ## Stack
 
 O projeto utiliza tecnologias nativas da web, sem frameworks pesados, com foco em desempenho e carregamento rápido:
@@ -36,6 +42,8 @@ O projeto utiliza tecnologias nativas da web, sem frameworks pesados, com foco e
 - **JavaScript (Vanilla ES6+)**: Manipulação do DOM, controle de carrossel infinito, sanfona de dúvidas, geolocalização e persistência no navegador
 - **Google Tag Manager**: Gerenciamento de tags, coleta de métricas e rastreamento de conversões
 - **WebP e SVG**: Formatos compactos de imagens e ícones vetoriais escaláveis
+
+---
 
 ## Estrutura do projeto
 
@@ -60,6 +68,8 @@ G.A.S Planos/
 └── README.md                # Este arquivo
 ```
 
+---
+
 ## Seções da página
 
 1. Apresentação inicial e chamada para contato
@@ -70,6 +80,8 @@ G.A.S Planos/
 6. Perguntas frequentes
 7. Rodapé com dados de registro na ANS e canais de atendimento
 
+---
+
 ## SEO e desempenho
 
 - Estrutura de dados Schema.org (`MedicalBusiness`, `InsuranceAgency`, `FAQPage`)
@@ -78,6 +90,8 @@ G.A.S Planos/
 - Cabeçalhos básicos de Content Security Policy (CSP)
 - Arquivos `robots.txt` e `sitemap.xml`
 - Imagens leves em WebP e SVG
+
+---
 
 ## Licença e uso
 
