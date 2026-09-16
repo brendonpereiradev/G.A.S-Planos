@@ -1,8 +1,12 @@
-# G.A.S Planos
+<h1 align="center">G.A.S Planos</h1>
 
-Landing page para corretor autorizado da Prevent Senior no Rio de Janeiro e em São Paulo.
+<p align="center">
+  Landing page para corretor autorizado da Prevent Senior no Rio de Janeiro e em São Paulo.
+</p>
 
-[gasplanos.com.br](https://gasplanos.com.br)
+<p align="center">
+  <a href="https://gasplanos.com.br" target="_blank">gasplanos.com.br</a>
+</p>
 
 ## Sobre o projeto
 
