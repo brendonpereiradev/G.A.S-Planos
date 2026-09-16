@@ -17,12 +17,18 @@ O projeto foi construído sem frameworks ou bibliotecas pesadas:
 
 ## Funcionalidades
 
-- Menu lateral para dispositivos móveis com horário de atendimento e atalhos de contato
-- Tabela de preços organizada por faixa etária
-- Carrossel com a rede credenciada e hospitais próprios do Rio de Janeiro e de São Paulo
-- Botões de contato com mensagem pré-configurada para o WhatsApp do corretor
-- Suporte a acessibilidade com widget VLibras e contraste adequado
-- Selos de laboratórios parceiros e conformidade legal
+| Recurso | Descrição |
+| --- | --- |
+| Barra de prova social | Contador no topo da página com simulação de visitantes simultâneos |
+| Formulário de cotação | Coleta rápida de dados com direcionamento de mensagem pronta para o WhatsApp |
+| Tabela de preços | Valores organizados por faixa etária para planos de enfermaria e apartamento |
+| Carrossel de unidades | Exibição de hospitais próprios no Rio de Janeiro e em São Paulo com rotação automática e suporte a toque |
+| Rede credenciada | Apresentação de hospitais e laboratórios parceiros em destaque |
+| Perguntas frequentes (FAQ) | Seção em formato sanfona com respostas expansíveis e marcação Schema.org |
+| Controle de acessibilidade | Ajuste no tamanho da fonte da página com preferência salva no navegador |
+| Menu móvel lateral | Gaveta de navegação para telas menores com horários de atendimento e bloqueio de rolagem |
+| Botão flutuante | Atalho fixo na tela para contato direto pelo WhatsApp |
+| Páginas institucionais e legais | Documentos de política de privacidade, termos de uso e página de erro 404 personalizada |
 
 ## Estrutura de conteúdo
 

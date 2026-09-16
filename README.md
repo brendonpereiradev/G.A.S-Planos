@@ -14,14 +14,18 @@ Landing page desenvolvida para corretor autorizado da Prevent Senior com atuaç�
 
 ## Funcionalidades
 
-- Apresentação inicial com contagem de visualizações e dados da corretora
-- Tabela de preços organizada por faixa etária
-- Carrossel com a rede credenciada e hospitais próprios do Rio de Janeiro e de São Paulo
-- Botões de contato direto via WhatsApp no cabeçalho, no menu e em botão flutuante
-- Seção de perguntas frequentes em formato sanfona (accordion) com marcação Schema.org
-- Ajuste de tamanho de fonte na página
-- Menu lateral para dispositivos móveis com horário de atendimento
-- Páginas de Política de Privacidade e Termos de Uso
+| Recurso | Descrição |
+| --- | --- |
+| Barra de prova social | Contador no topo da página com simulação de visitantes simultâneos |
+| Formulário de cotação | Coleta rápida de dados com direcionamento de mensagem pronta para o WhatsApp |
+| Tabela de preços | Valores organizados por faixa etária para planos de enfermaria e apartamento |
+| Carrossel de unidades | Exibição de hospitais próprios no Rio de Janeiro e em São Paulo com rotação automática e suporte a toque |
+| Rede credenciada | Apresentação de hospitais e laboratórios parceiros em destaque |
+| Perguntas frequentes (FAQ) | Seção em formato sanfona com respostas expansíveis e marcação Schema.org |
+| Controle de acessibilidade | Ajuste no tamanho da fonte da página com preferência salva no navegador |
+| Menu móvel lateral | Gaveta de navegação para telas menores com horários de atendimento e bloqueio de rolagem |
+| Botão flutuante | Atalho fixo na tela para contato direto pelo WhatsApp |
+| Páginas institucionais e legais | Documentos de política de privacidade, termos de uso e página de erro 404 personalizada |
 
 ## Tecnologias
 
